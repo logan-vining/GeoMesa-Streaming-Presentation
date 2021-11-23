@@ -14,12 +14,12 @@
 2. Install the WPS plugin for GeoServer
   * Follow instructions here: https://docs.geoserver.org/stable/en/user/services/wps/install.html
   * Restart GeoServer by hitting ctrl+C in the terminal and re-running startup.sh
-  * Check that WPS installed properly in the browser
+  * In the browser interface, check that WPS installed properly
 3. Get the GeoMesa installation file for Kafka: geomesa-kafka_2.12-3.3.0-bin.tar.gz
   * https://github.com/locationtech/geomesa/releases/tag/geomesa-3.3.0
 4. Un-tar the GeoMesa for Kafka file
   ``` tar -xzvf geomesa-kafka_2.12-3.3.0-bin.tar.gz ```
-5. From the directory where you un-tarred in step 4, extract the contents of the Kafka plugin .tar to the GeoServer library directory (the next steps are covered here: http://www.geomesa.org/documentation/stable/user/kafka/install.html#install-kafka-geoserver)
+5. From the directory where you un-tarred in step 4, extract the contents of the Kafka plugin .tar to the GeoServer library directory (the next steps are covered here, section 18.1.4.2: http://www.geomesa.org/documentation/stable/user/kafka/install.html#install-kafka-geoserver)
   ```
   tar -xzvf \
     geomesa-kafka_2.12-3.3.0/dist/gs-plugins/geomesa-kafka-gs-plugin_2.12-3.3.0-install.tar.gz \
