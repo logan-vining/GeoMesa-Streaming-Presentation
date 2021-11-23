@@ -1,8 +1,5 @@
 ## Running Kafka Quick Start with All Components Installed
 
-### check maven version:
-``` mvn -v ```
-
 ### start zookeeper for kafka
 ##### run from kafka root dir
 ``` bin/zookeeper-server-start.sh config/zookeeper.properties ```
@@ -17,6 +14,7 @@
 
 ### run maven clean and install
 ##### run from geomesa-tutorials repo root dir
+##### (this might take a while)
 ``` mvn clean install -pl geomesa-tutorials-kafka/geomesa-tutorials-kafka-quickstart -am ```
 
 ### run the quickstart tutorial
