@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Maven: org.locationtech.geomesa:geomesa-utils_2.12:3.0.0">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/locationtech/geomesa/geomesa-utils_2.12/3.0.0/geomesa-utils_2.12-3.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/locationtech/geomesa/geomesa-utils_2.12/3.0.0/geomesa-utils_2.12-3.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://$USER_HOME$/wsl/geomesa-kafka_2.12-3.3.0/lib" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/locationtech/geomesa/geomesa-utils_2.12/3.0.0/geomesa-utils_2.12-3.0.0-sources.jar!/" />
+    </SOURCES>
+    <jarDirectory url="file://$USER_HOME$/wsl/geomesa-kafka_2.12-3.3.0/lib" recursive="false" type="SOURCES" />
+  </library>
+</component>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.github.pureconfig:pureconfig-generic_2.12:0.11.1">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/pureconfig/pureconfig-generic_2.12/0.11.1/pureconfig-generic_2.12-0.11.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/pureconfig/pureconfig-generic_2.12/0.11.1/pureconfig-generic_2.12-0.11.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/pureconfig/pureconfig-generic_2.12/0.11.1/pureconfig-generic_2.12-0.11.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
