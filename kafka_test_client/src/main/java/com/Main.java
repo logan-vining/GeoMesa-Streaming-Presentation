@@ -22,7 +22,7 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) throws IOException {
         DataStore producer = makeDataStore("localhost:2181", "localhost:9092", "0");
-        DataStore consumer = makeDataStore("localhost:2181", "localhost:9092", "1");
+        //DataStore consumer = makeDataStore("localhost:2181", "localhost:9092", "1");
 
         SimpleFeatureType myType = makeSft();
         System.out.println("Created type: " + myType.getTypeName());
@@ -31,7 +31,8 @@ public class Main {
         System.out.println("Press <enter> to continue");
         System.in.read();
 
-        writeFeatures(producer, consumer, myType);
+        //writeFeatures(producer, consumer, myType);
+        writeFeatures(producer, myType);
         System.out.println("Done");
     }
 
@@ -55,12 +56,12 @@ public class Main {
         return newType;
     }
 
-    private static void writeFeatures(DataStore producer, DataStore consumer, SimpleFeatureType type) throws IOException {
+    private static void writeFeatures(DataStore producer,/* DataStore consumer,*/ SimpleFeatureType type) throws IOException {
         int numFeatures = 2000;
         Random rand = new Random();
 
         SimpleFeatureStore prodFeatureStore = (SimpleFeatureStore) producer.getFeatureSource(type.getTypeName());
-        SimpleFeatureSource consumFeatureSource = consumer.getFeatureSource(type.getTypeName());
+        //SimpleFeatureSource consumFeatureSource = consumer.getFeatureSource(type.getTypeName());
 
         for (int i = 0; i < numFeatures; i++) {
             List<Object> values = new ArrayList<>();
@@ -79,11 +80,11 @@ public class Main {
             if (i % 50 == 0) {
                 System.out.println("Wrote " + DataUtilities.encodeFeature(nextFeature));
 
-                SimpleFeatureIterator consumIter = consumFeatureSource.getFeatures().features();
+                /*SimpleFeatureIterator consumIter = consumFeatureSource.getFeatures().features();
                 System.out.println("Current consumer state: ");
                 while (consumIter.hasNext()) {
                     System.out.println(DataUtilities.encodeFeature(consumIter.next()));
-                }
+                }*/
 
                 try {
                     Thread.sleep(1000);
