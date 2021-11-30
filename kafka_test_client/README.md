@@ -23,10 +23,10 @@
 
 ### Preview the layer the same way you did for the quick start
 
-### Go back to where you're running the test client JAR and press <enter> to continue
+### Go back to where you're running the test client JAR and press [enter] to continue
 
 ### The test client will periodically output status information. Refresh the layer preview to see the dot move
 
-### When the test client finishes running, it will wait for you to press <enter> again. Once you do this, it will clear the data out of the DataStore.
+### When the test client finishes running, it will wait for you to press [enter] again. Once you do this, it will clear the data out of the DataStore.
 
-### For some reason unknown to me, it hangs up after pressing <enter> the last time. Use ctrl + c to actually exit.
+### For some reason unknown to me, it might hang up after pressing [enter] the last time. If needed, use ctrl + c to actually exit.
