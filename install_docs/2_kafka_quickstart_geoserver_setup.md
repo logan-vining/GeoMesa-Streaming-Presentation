@@ -8,7 +8,9 @@
   * Use this command to add the environment variable:
   ``` export GEOSERVER_HOME=<path to geoserver install dir>/geoserver-2.20.1 ```
   * Use this command to check the environment variable:
-  ``` print_env GEOSERVER_HOME ```
+  ``` printenv GEOSERVER_HOME ```
+  * Run Geoserver:
+  ``` bin/startup.sh ```
   * After starting up GeoServer, wait until “Started @#####ms” message
   * Check everything worked by visiting http://localhost:8080/geoserver in a web browser
 2. Install the WPS plugin for GeoServer
