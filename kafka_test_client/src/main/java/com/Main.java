@@ -21,7 +21,10 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        DataStore producer = makeDataStore("localhost:2181", "localhost:9092", "0");
+        DataFetcher fetcher = new DataFetcher();
+        fetcher.test();
+
+        /*DataStore producer = makeDataStore("localhost:2181", "localhost:9092", "0");
         //DataStore consumer = makeDataStore("localhost:2181", "localhost:9092", "1");
 
         SimpleFeatureType myType = makeSft();
@@ -33,7 +36,7 @@ public class Main {
 
         //writeFeatures(producer, consumer, myType);
         writeFeatures(producer, myType);
-        System.out.println("Done");
+        System.out.println("Done");*/
     }
 
     private static DataStore makeDataStore(String zookeeperAddr, String kafkaAddr, String consumerCount) throws IOException {
