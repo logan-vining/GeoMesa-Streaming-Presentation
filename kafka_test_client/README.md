@@ -5,7 +5,7 @@
 ### CD to the GeoMesa-Streaming-Presentation/kafka_test_client dir
 
 ### Run the bundled-up JAR
-``` java -cp kafka_test_client-1.0-SNAPSHOT-jar-with-dependencies.jar: com.Main ```
+``` java -cp target/kafka_test_client-1.0-SNAPSHOT-jar-with-dependencies.jar: com.Main ```
 ##### It will pause, just like the quick start
 ##### Go to GeoServer in your browser and set up and publish the layer the same way you would for the quick start
   * Go to "Layers", then "Add a new layer"

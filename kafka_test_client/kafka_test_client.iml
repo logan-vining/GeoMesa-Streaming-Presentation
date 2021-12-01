@@ -11,6 +11,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="org.apache.maven.plugins:maven-assembly-plugin:3.2.0" level="application" />
     <orderEntry type="library" name="Maven: org.locationtech.geomesa:geomesa-kafka-datastore_2.12:3.3.0" level="project" />
     <orderEntry type="library" name="Maven: org.locationtech.geomesa:geomesa-index-api_2.12:3.3.0" level="project" />
     <orderEntry type="library" name="Maven: io.sgr:s2-geometry-library-java:1.0.1" level="project" />
