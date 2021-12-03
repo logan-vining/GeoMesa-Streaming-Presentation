@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c05cdf69-9849-4022-9318-3b3894fd1424" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:\Program Files\JetBrains\IntelliJ IDEA 2020.2\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="21lIlaCays1gqLcrmjm6eAGJrhK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/org/geomesaStreaming/dataStreamer/trainData" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.32528734" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ben\Repositories\GeoMesa-Streaming-Presentation\dataStreamer\src\main\java\org\geomesaStreaming\dataStreamer\trainData" />
+      <recent name="C:\Users\Ben\Repositories\GeoMesa-Streaming-Presentation\dataStreamer\src\test\java\org\geomesaStreaming\dataStreamer\trainData" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="TrainDataStreamer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.geomesaStreaming.dataStreamer.trainData.TrainDataStreamer" />
+      <module name="dataStreamer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TrainDataStreamer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c05cdf69-9849-4022-9318-3b3894fd1424" name="Default Changelist" comment="" />
+      <created>1638509400618</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638509400618</updated>
+      <workItem from="1638509401747" duration="10607000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="736" y="355" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1638514428142">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="736" y="355" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/3840.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1638514428142" />
+    <state x="1095" y="384" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1638515772639">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1095" y="384" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/3840.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1638515772639" />
+    <state x="1011" y="455" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1638515777101">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1011" y="455" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/3840.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1638515777101" />
+    <state x="1061" y="455" key="FileChooserDialogImpl" timestamp="1638511325849">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1061" y="455" key="FileChooserDialogImpl/3840.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1638511325849" />
+    <state width="2517" height="400" key="GridCell.Tab.0.bottom" timestamp="1638521820780">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="400" key="GridCell.Tab.0.bottom/3840.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1638521820780" />
+    <state width="2517" height="400" key="GridCell.Tab.0.center" timestamp="1638521820780">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="400" key="GridCell.Tab.0.center/3840.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1638521820780" />
+    <state width="2517" height="400" key="GridCell.Tab.0.left" timestamp="1638521820780">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="400" key="GridCell.Tab.0.left/3840.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1638521820780" />
+    <state width="2517" height="400" key="GridCell.Tab.0.right" timestamp="1638521820780">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="400" key="GridCell.Tab.0.right/3840.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1638521820780" />
+    <state width="2517" height="492" key="GridCell.Tab.1.bottom" timestamp="1638512024498">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.1.bottom/3840.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1638512024498" />
+    <state width="2517" height="492" key="GridCell.Tab.1.center" timestamp="1638512024498">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.1.center/3840.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1638512024498" />
+    <state width="2517" height="492" key="GridCell.Tab.1.left" timestamp="1638512024498">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.1.left/3840.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1638512024498" />
+    <state width="2517" height="492" key="GridCell.Tab.1.right" timestamp="1638512024498">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.1.right/3840.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1638512024498" />
+    <state x="761" y="275" key="SettingsEditor" timestamp="1638515787776">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="761" y="275" key="SettingsEditor/3840.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1638515787776" />
+    <state x="1092" y="478" key="chooseDestDirectoryDialog" timestamp="1638513305690">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1092" y="478" key="chooseDestDirectoryDialog/3840.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1638513305690" />
+    <state x="1015" y="592" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1638515771393">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1015" y="592" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/3840.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1638515771393" />
+  </component>
+</project>
