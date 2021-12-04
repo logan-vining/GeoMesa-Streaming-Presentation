@@ -1,0 +1,1 @@
+To run: ``` java -cp target/dataStreamer-0.1-jar-with-dependencies.jar org.geomesaStreaming.dataStreamer.planeData.PlaneDataStreamer ```
