@@ -1,23 +1,15 @@
 package org.geomesaStreaming.dataStreamer.trainData;
 
-import org.geomesaStreaming.dataStreamer.DataElement;
-import org.geomesaStreaming.dataStreamer.DataFetcher;
 import org.geomesaStreaming.dataStreamer.SimpleFeatureHelper;
+import org.geomesaStreaming.dataStreamer.StreamRunner;
 import org.geotools.data.DataStore;
 import org.geotools.data.DataStoreFinder;
 import org.geotools.data.DataUtilities;
-import org.geotools.data.collection.ListFeatureCollection;
-import org.geotools.data.simple.SimpleFeatureStore;
-import org.opengis.feature.simple.SimpleFeature;
 import org.opengis.feature.simple.SimpleFeatureType;
-import org.opengis.filter.Filter;
 
 import java.io.IOException;
 import java.io.Serializable;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class TrainDataStreamer {
     public static void main(String[] args) {
@@ -43,10 +35,18 @@ public class TrainDataStreamer {
         System.out.println("Starting stream...");
         System.out.println();
 
-        SimpleFeatureStore featureStore = streamTrainData(prodStore, trainSft);
-
-        System.out.println("Clearing features...");
-        featureStore.removeFeatures(Filter.INCLUDE);
+		StreamRunner streamRunner = new StreamRunner(prodStore, trainSft, new TrainDataFetcher());
+		Thread streamThread = new Thread(streamRunner);
+		streamThread.start();
+		
+		System.out.println("Streaming Irish Rail train data; type 'stop' to stop and quit");
+		System.out.println();
+		
+		Scanner input = new Scanner(System.in);
+		while (!input.next().toLowerCase().equals("stop"));
+		
+		streamRunner.keepRunning = false;
+		streamThread.interrupt();
         System.out.println("Goodbye");
     }
 
@@ -61,31 +61,5 @@ public class TrainDataStreamer {
             throw new RuntimeException("Could not create data store with provided parameters");
         }
         return newStore;
-    }
-
-    private static SimpleFeatureStore streamTrainData(DataStore dataStore, SimpleFeatureType sft) throws IOException {
-        DataFetcher trainDataFetcher = new TrainDataFetcher();
-        SimpleFeatureStore prodFeatureStore = (SimpleFeatureStore) dataStore.getFeatureSource(sft.getTypeName());
-
-        while (true) {
-            List<DataElement> newData = trainDataFetcher.getDataElements();
-
-            for (DataElement curElem : newData) {
-                SimpleFeature newFeature = SimpleFeatureHelper.makeFeatureFromData(sft, curElem);
-                prodFeatureStore.addFeatures(new ListFeatureCollection(sft, Collections.singletonList(newFeature)));
-
-                System.out.println("Wrote " + DataUtilities.encodeFeature(newFeature));
-            }
-
-            System.out.println();
-            System.out.println("Streaming Irish Rail train data; use ctrl+c to exit");
-            System.out.println();
-
-            try {
-                Thread.sleep(10000);
-            } catch (InterruptedException e) {
-                return prodFeatureStore;
-            }
-        }
     }
 }
