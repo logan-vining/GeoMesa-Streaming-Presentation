@@ -42,6 +42,7 @@ public class PlaneDataFetcher implements DataFetcher {
 
 					if (!stateVector.get(9).isJsonNull()) newDataElement.setValue("velocity", stateVector.get(9).getAsDouble());
 					if (!stateVector.get(4).isJsonNull()) newDataElement.setValue("time", new Date(stateVector.get(4).getAsLong() * 1000));
+					//System.out.println(newDataElement.getValue("time"));
 				} catch (NoSuchFieldException e) {
 					e.printStackTrace();
 					newDataElement = null;
