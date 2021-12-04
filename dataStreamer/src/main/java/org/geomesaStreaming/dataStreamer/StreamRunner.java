@@ -39,6 +39,9 @@ public class StreamRunner implements Runnable {
                     System.out.println("Wrote " + DataUtilities.encodeFeature(newFeature));
                 }
 
+                System.out.println("Type 'stop' to stop and quit");
+                System.out.println();
+
                 try {
                     Thread.sleep(10000);
                 } catch (InterruptedException e) {
