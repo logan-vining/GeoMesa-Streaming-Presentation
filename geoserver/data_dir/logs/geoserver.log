@@ -35462,3 +35462,1001 @@ Caused by: org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperE
 	at org.locationtech.geomesa.index.metadata.TableBasedMetadata$$anon$1.load(TableBasedMetadata.scala:110)
 	at com.github.benmanes.caffeine.cache.BoundedLocalCache$BoundedLocalLoadingCache.lambda$new$0(BoundedLocalCache.java:3308)
 	... 148 more
+2021-12-04 05:45:38,343 INFO [org.geoserver] - GeoServer configuration lock is enabled
+2021-12-04 05:45:38,417 INFO [org.geoserver] - Loading catalog...
+2021-12-04 05:45:38,506 INFO [org.geoserver] - Loaded style 'population'
+2021-12-04 05:45:38,507 INFO [org.geoserver] - Loaded style 'capitals'
+2021-12-04 05:45:38,508 INFO [org.geoserver] - Loaded style 'raster'
+2021-12-04 05:45:38,508 INFO [org.geoserver] - Loaded style 'green'
+2021-12-04 05:45:38,509 INFO [org.geoserver] - Loaded style 'line'
+2021-12-04 05:45:38,510 INFO [org.geoserver] - Loaded style 'generic'
+2021-12-04 05:45:38,511 INFO [org.geoserver] - Loaded style 'grass'
+2021-12-04 05:45:38,512 INFO [org.geoserver] - Loaded style 'restricted'
+2021-12-04 05:45:38,512 INFO [org.geoserver] - Loaded style 'simple_streams'
+2021-12-04 05:45:38,513 INFO [org.geoserver] - Loaded style 'giant_polygon'
+2021-12-04 05:45:38,514 INFO [org.geoserver] - Loaded style 'point'
+2021-12-04 05:45:38,515 INFO [org.geoserver] - Loaded style 'polygon'
+2021-12-04 05:45:38,516 INFO [org.geoserver] - Loaded style 'burg'
+2021-12-04 05:45:38,516 INFO [org.geoserver] - Loaded style 'pophatch'
+2021-12-04 05:45:38,517 INFO [org.geoserver] - Loaded style 'poi'
+2021-12-04 05:45:38,519 INFO [org.geoserver] - Loaded style 'cite_lakes'
+2021-12-04 05:45:38,520 INFO [org.geoserver] - Loaded style 'tiger_roads'
+2021-12-04 05:45:38,521 INFO [org.geoserver] - Loaded style 'rain'
+2021-12-04 05:45:38,521 INFO [org.geoserver] - Loaded style 'poly_landmarks'
+2021-12-04 05:45:38,522 INFO [org.geoserver] - Loaded style 'dem'
+2021-12-04 05:45:38,523 INFO [org.geoserver] - Loaded style 'simple_roads'
+2021-12-04 05:45:38,524 INFO [org.geoserver] - Loaded default workspace cite
+2021-12-04 05:45:38,541 INFO [org.geoserver] - Loaded workspace 'sf'
+2021-12-04 05:45:38,544 INFO [org.geoserver] - Loaded workspace 'sde'
+2021-12-04 05:45:38,546 INFO [org.geoserver] - Loaded workspace 'tiger'
+2021-12-04 05:45:38,547 INFO [org.geoserver] - Loaded workspace 'topp'
+2021-12-04 05:45:38,548 INFO [org.geoserver] - Loaded workspace 'nurc'
+2021-12-04 05:45:38,549 INFO [org.geoserver] - Loaded workspace 'cite'
+2021-12-04 05:45:38,551 INFO [org.geoserver] - Loaded workspace 'it.geosolutions'
+2021-12-04 05:45:39,764 INFO [org.geoserver] - Loaded data store 'sf', enabled
+2021-12-04 05:45:41,195 INFO [org.geoserver] - Loaded feature type 'roads', enabled
+2021-12-04 05:45:41,212 INFO [org.geoserver] - Loaded layer 'roads'
+2021-12-04 05:45:41,220 INFO [org.geoserver] - Loaded feature type 'archsites', enabled
+2021-12-04 05:45:41,221 INFO [org.geoserver] - Loaded layer 'archsites'
+2021-12-04 05:45:41,229 INFO [org.geoserver] - Loaded feature type 'bugsites', enabled
+2021-12-04 05:45:41,232 INFO [org.geoserver] - Loaded layer 'bugsites'
+2021-12-04 05:45:41,238 INFO [org.geoserver] - Loaded feature type 'streams', enabled
+2021-12-04 05:45:41,241 INFO [org.geoserver] - Loaded layer 'streams'
+2021-12-04 05:45:41,248 INFO [org.geoserver] - Loaded feature type 'restricted', enabled
+2021-12-04 05:45:41,249 INFO [org.geoserver] - Loaded layer 'restricted'
+2021-12-04 05:45:41,259 INFO [org.geoserver] - Loaded coverage store 'sfdem', enabled
+2021-12-04 05:45:41,288 INFO [org.geoserver] - Loaded coverage 'sfdem', enabled
+2021-12-04 05:45:41,290 INFO [org.geoserver] - Loaded layer 'sfdem'
+2021-12-04 05:45:41,299 INFO [org.geoserver] - Loaded data store 'states_shapefile', enabled
+2021-12-04 05:45:41,305 INFO [org.geoserver] - Loaded feature type 'states', enabled
+2021-12-04 05:45:41,307 INFO [org.geoserver] - Loaded layer 'states'
+2021-12-04 05:45:41,311 INFO [org.geoserver] - Loaded data store 'taz_shapes', enabled
+2021-12-04 05:45:41,318 INFO [org.geoserver] - Loaded feature type 'tasmania_state_boundaries', enabled
+2021-12-04 05:45:41,320 INFO [org.geoserver] - Loaded layer 'tasmania_state_boundaries'
+2021-12-04 05:45:41,323 INFO [org.geoserver] - Loaded feature type 'tasmania_roads', enabled
+2021-12-04 05:45:41,325 INFO [org.geoserver] - Loaded layer 'tasmania_roads'
+2021-12-04 05:45:41,328 INFO [org.geoserver] - Loaded feature type 'tasmania_cities', enabled
+2021-12-04 05:45:41,330 INFO [org.geoserver] - Loaded layer 'tasmania_cities'
+2021-12-04 05:45:41,333 INFO [org.geoserver] - Loaded feature type 'tasmania_water_bodies', enabled
+2021-12-04 05:45:41,334 INFO [org.geoserver] - Loaded layer 'tasmania_water_bodies'
+2021-12-04 05:45:41,339 INFO [org.geoserver] - Loaded data store 'nyc', enabled
+2021-12-04 05:45:41,344 INFO [org.geoserver] - Loaded feature type 'tiger_roads', enabled
+2021-12-04 05:45:41,345 INFO [org.geoserver] - Loaded layer 'tiger_roads'
+2021-12-04 05:45:41,348 INFO [org.geoserver] - Loaded feature type 'poly_landmarks', enabled
+2021-12-04 05:45:41,349 INFO [org.geoserver] - Loaded layer 'poly_landmarks'
+2021-12-04 05:45:41,352 INFO [org.geoserver] - Loaded feature type 'giant_polygon', enabled
+2021-12-04 05:45:41,353 INFO [org.geoserver] - Loaded layer 'giant_polygon'
+2021-12-04 05:45:41,356 INFO [org.geoserver] - Loaded feature type 'poi', enabled
+2021-12-04 05:45:41,358 INFO [org.geoserver] - Loaded layer 'poi'
+2021-12-04 05:45:41,363 INFO [org.geoserver] - Loaded coverage store 'mosaic', enabled
+2021-12-04 05:45:41,372 INFO [org.geoserver] - Loaded coverage 'mosaic', enabled
+2021-12-04 05:45:41,375 INFO [org.geoserver] - Loaded layer 'mosaic'
+2021-12-04 05:45:41,377 INFO [org.geoserver] - Loaded coverage store 'worldImageSample', enabled
+2021-12-04 05:45:41,381 INFO [org.geoserver] - Loaded coverage 'Img_Sample', enabled
+2021-12-04 05:45:41,382 INFO [org.geoserver] - Loaded layer 'Img_Sample'
+2021-12-04 05:45:41,384 INFO [org.geoserver] - Loaded coverage store 'arcGridSample', enabled
+2021-12-04 05:45:41,387 INFO [org.geoserver] - Loaded coverage 'Arc_Sample', enabled
+2021-12-04 05:45:41,388 INFO [org.geoserver] - Loaded layer 'Arc_Sample'
+2021-12-04 05:45:41,389 INFO [org.geoserver] - Loaded coverage store 'img_sample2', enabled
+2021-12-04 05:45:41,401 INFO [org.geoserver] - Loaded coverage 'Pk50095', enabled
+2021-12-04 05:45:41,403 INFO [org.geoserver] - Loaded layer 'Pk50095'
+2021-12-04 05:45:41,410 INFO [org.geoserver] - Loaded data store 'Geomesa Quickstart', enabled
+2021-12-04 05:45:41,413 INFO [org.geoserver] - Loaded feature type 'tdrive-quickstart', enabled
+2021-12-04 05:45:41,414 INFO [org.geoserver] - Loaded layer 'tdrive-quickstart'
+2021-12-04 05:45:41,597 INFO [org.geoserver] - Loaded layer group 'spearfish'
+2021-12-04 05:45:41,600 INFO [org.geoserver] - Loaded layer group 'tasmania'
+2021-12-04 05:45:41,602 INFO [org.geoserver] - Loaded layer group 'tiger-ny'
+2021-12-04 05:45:41,605 INFO [org.geoserver] - Read catalog in 3.186 s
+2021-12-04 05:45:41,726 INFO [org.geoserver] - Loaded service 'WMTSInfoImpl-13f0ab47:17d83fa0a5d:-8000', enabled
+2021-12-04 05:45:41,732 INFO [org.geoserver] - Loaded service 'wcs', enabled
+2021-12-04 05:45:41,745 INFO [org.geoserver] - Loaded service 'wfs', enabled
+2021-12-04 05:45:41,761 INFO [org.geoserver] - Loaded service 'wms', enabled
+2021-12-04 05:45:41,776 INFO [org.geoserver] - Loaded service 'WPSInfoImpl--3e0eb376:17ce8ffc37e:-7fff', enabled
+2021-12-04 05:45:41,808 INFO [config.GeoserverXMLResourceProvider] - Will look for 'geowebcache.xml' in directory '/geoserver/data_dir/gwc'.
+2021-12-04 05:45:41,919 INFO [config.GeoserverXMLResourceProvider] - Found configuration file in gwc
+2021-12-04 05:45:41,920 INFO [config.GeoserverXMLResourceProvider] - Found configuration file in gwc
+2021-12-04 05:45:41,920 INFO [config.GeoserverXMLResourceProvider] - Found configuration file in gwc
+2021-12-04 05:45:41,973 WARN [config.XMLConfiguration] - ********************************************************************************
+2021-12-04 05:45:41,973 WARN [config.XMLConfiguration] - *** GWC configuration validation error: cvc-elt.1: Cannot find the declaration of element 'gwcConfiguration'.
+2021-12-04 05:45:41,973 WARN [config.XMLConfiguration] - *** Will try to use configuration anyway. Please check the order of declared elements against the schema.
+2021-12-04 05:45:41,974 WARN [config.XMLConfiguration] - ********************************************************************************
+2021-12-04 05:45:42,026 INFO [config.XMLConfiguration] - Initializing GridSets from gwc
+2021-12-04 05:45:42,028 INFO [config.XMLConfiguration] - Initializing layers from gwc
+2021-12-04 05:45:42,067 INFO [gwc.layer] - Initializing GWC configuration based on GeoServer's Catalog
+2021-12-04 05:45:42,067 INFO [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
+2021-12-04 05:45:42,067 INFO [gwc.layer] - Loading tile layers from gwc-layers
+2021-12-04 05:45:42,096 INFO [gwc.layer] - Loaded 23 tile layers in 27.83 ms
+2021-12-04 05:45:42,107 INFO [storage.BlobStoreAggregator] - BlobStoreConfiguration gwc contained no blob store infos.
+2021-12-04 05:45:42,114 INFO [storage.DefaultStorageFinder] - **********************************************************************************************************************
+2021-12-04 05:45:42,114 INFO [storage.DefaultStorageFinder] - *** Found Java environment variable GEOSERVER_DATA_DIR set to /geoserver/data_dir, using it as the default prefix. ***
+2021-12-04 05:45:42,114 INFO [storage.DefaultStorageFinder] - **********************************************************************************************************************
+2021-12-04 05:45:42,216 INFO [gwc.config] - Initializing GeoServer specific GWC configuration from gwc-gs.xml
+2021-12-04 05:45:42,637 INFO [config.GeoserverXMLResourceProvider] - Will look for 'geowebcache-diskquota.xml' in directory '/geoserver/data_dir/gwc'.
+2021-12-04 05:45:42,644 INFO [config.GeoserverXMLResourceProvider] - Will look for 'geowebcache-diskquota-jdbc.xml' in directory '/geoserver/data_dir/gwc'.
+2021-12-04 05:45:42,647 INFO [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+2021-12-04 05:45:42,654 INFO [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+2021-12-04 05:45:42,655 INFO [diskquota.DiskQuotaMonitor] - Setting up disk quota periodic enforcement task
+2021-12-04 05:45:42,655 INFO [diskquota.DiskQuotaMonitor] - 0 layers configured with their own quotas. 
+2021-12-04 05:45:42,657 INFO [diskquota.DiskQuotaMonitor] - 23 layers attached to global quota 500.0 MB
+2021-12-04 05:45:42,686 INFO [diskquota.DiskQuotaMonitor] - Disk quota periodic enforcement task set up every 10 SECONDS
+2021-12-04 05:45:42,832 INFO [geowebcache.GeoWebCacheDispatcher] - Invoked setServletPrefix(gwc)
+2021-12-04 05:45:42,843 INFO [georss.GeoRSSPoller] - Initializing GeoRSS poller in a background job...
+2021-12-04 05:45:42,844 INFO [georss.GeoRSSPoller] - No enabled GeoRSS feeds found, poller will not run.
+2021-12-04 05:45:42,944 INFO [wms.WMSService] - Will NOT recombine tiles for non-tiling clients.
+2021-12-04 05:45:42,945 INFO [wms.WMSService] - Will proxy requests to backend that are not getmap or getcapabilities.
+2021-12-04 05:45:44,203 INFO [geoserver.config] - Initiated CatalogTimeStampUpdater
+2021-12-04 05:45:44,603 WARN [gce.imagemosaic] - Unable to set ordering between tiff readers spi
+2021-12-04 05:45:46,521 INFO [geoserver.wps] - Found 5 bindable processes in GeoServer specific processes
+2021-12-04 05:45:46,562 INFO [geoserver.wps] - Found 89 bindable processes in Deprecated processes
+2021-12-04 05:45:46,563 INFO [geoserver.wps] - Blacklisting process geomesa:ArrowConversion as the output result of type interface java.util.Iterator cannot be handled
+2021-12-04 05:45:46,564 INFO [geoserver.wps] - Blacklisting process geomesa:BinConversion as the output result of type interface java.util.Iterator cannot be handled
+2021-12-04 05:45:46,571 INFO [geoserver.wps] - Found 16 bindable processes in GeoMesa Process Factory
+2021-12-04 05:45:46,575 INFO [geoserver.wps] - Blacklisting process vec:GroupCandidateSelection as the input groupingAttributes of type class java.lang.Object cannot be handled
+2021-12-04 05:45:46,578 INFO [geoserver.wps] - Found 31 bindable processes in Vector processes
+2021-12-04 05:45:46,582 INFO [geoserver.wps] - Found 48 bindable processes in Geometry processes
+2021-12-04 05:45:46,582 INFO [geoserver.wps] - Found 1 bindable processes in PolygonLabelProcess
+2021-12-04 05:45:46,583 INFO [geoserver.wps] - Blacklisting process ras:ConvolveCoverage as the input kernel of type class javax.media.jai.KernelJAI cannot be handled
+2021-12-04 05:45:46,587 INFO [geoserver.wps] - Blacklisting process ras:RasterZonalStatistics2 as the input zones of type class java.lang.Object cannot be handled
+2021-12-04 05:45:46,587 INFO [geoserver.wps] - Blacklisting process ras:RasterZonalStatistics2 as the input nodata of type class it.geosolutions.jaiext.range.Range cannot be handled
+2021-12-04 05:45:46,588 INFO [geoserver.wps] - Blacklisting process ras:RasterZonalStatistics2 as the input rangeData of type class java.lang.Object cannot be handled
+2021-12-04 05:45:46,588 INFO [geoserver.wps] - Blacklisting process ras:RasterZonalStatistics2 as the output zonal statistics of type interface java.util.List cannot be handled
+2021-12-04 05:45:46,589 INFO [geoserver.wps] - Found 18 bindable processes in Raster processes
+2021-12-04 05:45:47,394 INFO [geoserver.security] - Start reloading user/groups for service named default
+2021-12-04 05:45:47,399 INFO [geoserver.security] - Reloading user/groups successful for service named default
+2021-12-04 05:45:47,519 INFO [geoserver.security] - AuthenticationCache Initialized with 1000 Max Entries, 300 seconds idle time, 600 seconds time to live and 3 concurrency level
+2021-12-04 05:45:47,520 INFO [geoserver.security] - AuthenticationCache Eviction Task created to run every 600 seconds
+2021-12-04 05:46:38,341 ERROR [imps.CuratorFrameworkImpl] - Ensure path threw exception
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /geomesa
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:102)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:54)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1111)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1139)
+	at org.apache.curator.utils.ZKPaths.mkdirs(ZKPaths.java:334)
+	at org.apache.curator.framework.imps.NamespaceImpl$1.call(NamespaceImpl.java:90)
+	at org.apache.curator.connection.StandardConnectionHandlingPolicy.callWithRetry(StandardConnectionHandlingPolicy.java:67)
+	at org.apache.curator.RetryLoop.callWithRetry(RetryLoop.java:81)
+	at org.apache.curator.framework.imps.NamespaceImpl.fixForNamespace(NamespaceImpl.java:83)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.fixForNamespace(CuratorFrameworkImpl.java:731)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.forPath(ExistsBuilderImpl.java:187)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.forPath(ExistsBuilderImpl.java:35)
+	at org.locationtech.geomesa.utils.zk.ZookeeperMetadata.scanValue(ZookeeperMetadata.scala:52)
+	at org.locationtech.geomesa.index.metadata.KeyValueStoreMetadata.scanValue(KeyValueStoreMetadata.scala:40)
+	at org.locationtech.geomesa.index.metadata.KeyValueStoreMetadata.scanValue$(KeyValueStoreMetadata.scala:39)
+	at org.locationtech.geomesa.utils.zk.ZookeeperMetadata.scanValue(ZookeeperMetadata.scala:16)
+	at org.locationtech.geomesa.index.metadata.TableBasedMetadata$$anon$1.load(TableBasedMetadata.scala:114)
+	at org.locationtech.geomesa.index.metadata.TableBasedMetadata$$anon$1.load(TableBasedMetadata.scala:110)
+	at com.github.benmanes.caffeine.cache.BoundedLocalCache$BoundedLocalLoadingCache.lambda$new$0(BoundedLocalCache.java:3308)
+	at com.github.benmanes.caffeine.cache.BoundedLocalCache.lambda$doComputeIfAbsent$14(BoundedLocalCache.java:2031)
+	at java.util.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1853)
+	at com.github.benmanes.caffeine.cache.BoundedLocalCache.doComputeIfAbsent(BoundedLocalCache.java:2029)
+	at com.github.benmanes.caffeine.cache.BoundedLocalCache.computeIfAbsent(BoundedLocalCache.java:2012)
+	at com.github.benmanes.caffeine.cache.LocalCache.computeIfAbsent(LocalCache.java:113)
+	at com.github.benmanes.caffeine.cache.LocalLoadingCache.get(LocalLoadingCache.java:65)
+	at org.locationtech.geomesa.index.metadata.TableBasedMetadata.read(TableBasedMetadata.scala:163)
+	at org.locationtech.geomesa.index.metadata.TableBasedMetadata.read$(TableBasedMetadata.scala:159)
+	at org.locationtech.geomesa.utils.zk.ZookeeperMetadata.read(ZookeeperMetadata.scala:16)
+	at org.locationtech.geomesa.kafka.data.KafkaDataStore.<init>(KafkaDataStore.scala:114)
+	at org.locationtech.geomesa.kafka.data.KafkaDataStoreFactory.createDataStore(KafkaDataStoreFactory.scala:49)
+	at org.locationtech.geomesa.kafka.data.KafkaDataStoreFactory.createDataStore(KafkaDataStoreFactory.scala:38)
+	at org.vfny.geoserver.util.DataStoreUtils.getDataAccess(DataStoreUtils.java:66)
+	at org.geoserver.catalog.ResourcePool.getDataStore(ResourcePool.java:624)
+	at org.geoserver.catalog.ResourcePool.getCacheableFeatureType(ResourcePool.java:952)
+	at org.geoserver.catalog.ResourcePool.tryGetFeatureType(ResourcePool.java:937)
+	at org.geoserver.catalog.ResourcePool.getFeatureType(ResourcePool.java:920)
+	at org.geoserver.catalog.ResourcePool.getFeatureType(ResourcePool.java:914)
+	at org.geoserver.catalog.impl.FeatureTypeInfoImpl.getFeatureType(FeatureTypeInfoImpl.java:134)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.geoserver.catalog.impl.ModificationProxy.invoke(ModificationProxy.java:129)
+	at com.sun.proxy.$Proxy29.getFeatureType(Unknown Source)
+	at org.geoserver.security.decorators.DecoratingFeatureTypeInfo.getFeatureType(DecoratingFeatureTypeInfo.java:112)
+	at org.geoserver.security.decorators.SecuredFeatureTypeInfo.getFeatureType(SecuredFeatureTypeInfo.java:58)
+	at org.geoserver.web.CatalogIconFactory.getSpecificLayerIcon(CatalogIconFactory.java:109)
+	at org.geoserver.web.demo.PreviewLayer.getIcon(PreviewLayer.java:89)
+	at org.geoserver.web.demo.MapPreviewPage$1.getComponentForProperty(MapPreviewPage.java:82)
+	at org.geoserver.web.wicket.GeoServerTablePanel$5.populateItem(GeoServerTablePanel.java:292)
+	at org.apache.wicket.markup.html.list.ListView.onPopulate(ListView.java:523)
+	at org.apache.wicket.markup.repeater.AbstractRepeater.onBeforeRender(AbstractRepeater.java:124)
+	at org.apache.wicket.Component.internalBeforeRender(Component.java:950)
+	at org.apache.wicket.Component.beforeRender(Component.java:1018)
+	at org.apache.wicket.MarkupContainer.onBeforeRenderChildren(MarkupContainer.java:1826)
+	at org.apache.wicket.Component.onBeforeRender(Component.java:3921)
+	at org.apache.wicket.Component.internalBeforeRender(Component.java:950)
+	at org.apache.wicket.Component.beforeRender(Component.java:1018)
+	at org.apache.wicket.MarkupContainer.onBeforeRenderChildren(MarkupContainer.java:1826)
+	at org.apache.wicket.Component.onBeforeRender(Component.java:3921)
+	at org.apache.wicket.markup.repeater.AbstractRepeater.onBeforeRender(AbstractRepeater.java:143)
+	at org.apache.wicket.markup.repeater.AbstractPageableView.onBeforeRender(AbstractPageableView.java:115)
+	at org.apache.wicket.Component.internalBeforeRender(Component.java:950)
+	at org.apache.wicket.Component.beforeRender(Component.java:1018)
+	at org.apache.wicket.MarkupContainer.onBeforeRenderChildren(MarkupContainer.java:1826)
+	at org.apache.wicket.Component.onBeforeRender(Component.java:3921)
+	at org.apache.wicket.Component.internalBeforeRender(Component.java:950)
+	at org.apache.wicket.Component.beforeRender(Component.java:1018)
+	at org.apache.wicket.MarkupContainer.onBeforeRenderChildren(MarkupContainer.java:1826)
+	at org.apache.wicket.Component.onBeforeRender(Component.java:3921)
+	at org.apache.wicket.Component.internalBeforeRender(Component.java:950)
+	at org.apache.wicket.Component.beforeRender(Component.java:1018)
+	at org.apache.wicket.MarkupContainer.onBeforeRenderChildren(MarkupContainer.java:1826)
+	at org.apache.wicket.Component.onBeforeRender(Component.java:3921)
+	at org.apache.wicket.Page.onBeforeRender(Page.java:801)
+	at org.apache.wicket.Component.internalBeforeRender(Component.java:950)
+	at org.apache.wicket.Component.beforeRender(Component.java:1018)
+	at org.apache.wicket.Component.internalPrepareForRender(Component.java:2236)
+	at org.apache.wicket.Page.internalPrepareForRender(Page.java:242)
+	at org.apache.wicket.Component.render(Component.java:2327)
+	at org.apache.wicket.Page.renderPage(Page.java:1018)
+	at org.apache.wicket.request.handler.render.WebPageRenderer.renderPage(WebPageRenderer.java:124)
+	at org.apache.wicket.request.handler.render.WebPageRenderer.respond(WebPageRenderer.java:236)
+	at org.apache.wicket.core.request.handler.RenderPageRequestHandler.respond(RenderPageRequestHandler.java:175)
+	at org.apache.wicket.request.cycle.RequestCycle$HandlerExecutor.respond(RequestCycle.java:895)
+	at org.apache.wicket.request.RequestHandlerStack.execute(RequestHandlerStack.java:64)
+	at org.apache.wicket.request.cycle.RequestCycle.execute(RequestCycle.java:265)
+	at org.apache.wicket.request.cycle.RequestCycle.processRequest(RequestCycle.java:222)
+	at org.apache.wicket.request.cycle.RequestCycle.processRequestAndDetach(RequestCycle.java:293)
+	at org.apache.wicket.protocol.http.WicketFilter.processRequestCycle(WicketFilter.java:261)
+	at org.apache.wicket.protocol.http.WicketFilter.processRequest(WicketFilter.java:203)
+	at org.apache.wicket.protocol.http.WicketServlet.doGet(WicketServlet.java:137)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.springframework.web.servlet.mvc.ServletWrappingController.handleRequestInternal(ServletWrappingController.java:166)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder$NotAsync.service(ServletHolder.java:1452)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:791)
+	at org.eclipse.jetty.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1626)
+	at org.geoserver.filters.ThreadLocalsCleanupFilter.doFilter(ThreadLocalsCleanupFilter.java:28)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:73)
+	at org.geoserver.ows.HTTPHeadersCollector.doFilter(HTTPHeadersCollector.java:48)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.SpringDelegatingFilter.doFilter(SpringDelegatingFilter.java:43)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601)
+	at org.geoserver.platform.AdvancedDispatchFilter.doFilter(AdvancedDispatchFilter.java:39)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:71)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:75)
+	at org.geoserver.security.filter.GeoServerCompositeFilter.doFilter(GeoServerCompositeFilter.java:92)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:71)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:75)
+	at org.geoserver.security.filter.GeoServerCompositeFilter.doFilter(GeoServerCompositeFilter.java:92)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.geoserver.security.filter.GeoServerAnonymousAuthenticationFilter.doFilter(GeoServerAnonymousAuthenticationFilter.java:53)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:71)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:75)
+	at org.geoserver.security.filter.GeoServerCompositeFilter.doFilter(GeoServerCompositeFilter.java:92)
+	at org.geoserver.security.filter.GeoServerUserNamePasswordAuthenticationFilter.doFilter(GeoServerUserNamePasswordAuthenticationFilter.java:122)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:71)
+	at org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter.doFilter(RememberMeAuthenticationFilter.java:150)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:75)
+	at org.geoserver.security.filter.GeoServerCompositeFilter.doFilter(GeoServerCompositeFilter.java:92)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:71)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.geoserver.security.filter.GeoServerSecurityContextPersistenceFilter$1.doFilter(GeoServerSecurityContextPersistenceFilter.java:52)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:75)
+	at org.geoserver.security.filter.GeoServerCompositeFilter.doFilter(GeoServerCompositeFilter.java:92)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.geoserver.security.GeoServerSecurityFilterChainProxy.doFilter(GeoServerSecurityFilterChainProxy.java:142)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601)
+	at org.geoserver.filters.LoggingFilter.doFilter(LoggingFilter.java:102)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601)
+	at org.geoserver.filters.XFrameOptionsFilter.doFilter(XFrameOptionsFilter.java:77)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601)
+	at org.geoserver.filters.GZIPFilter.doFilter(GZIPFilter.java:48)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601)
+	at org.geoserver.filters.SessionDebugFilter.doFilter(SessionDebugFilter.java:49)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601)
+	at org.geoserver.filters.FlushSafeFilter.doFilter(FlushSafeFilter.java:42)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:201)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:548)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:602)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1624)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1435)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:501)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1594)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1350)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:191)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:146)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:388)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:633)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:380)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:273)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:375)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:773)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:905)
+	at java.lang.Thread.run(Thread.java:748)
+2021-12-04 05:47:03,672 WARN [geoserver.catalog] - Error while getting feature type, flushing cache and retrying: {0}
+2021-12-04 05:47:24,712 ERROR [imps.CuratorFrameworkImpl] - Ensure path threw exception
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /geomesa
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:102)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:54)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1111)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1139)
+	at org.apache.curator.utils.ZKPaths.mkdirs(ZKPaths.java:334)
+	at org.apache.curator.framework.imps.NamespaceImpl$1.call(NamespaceImpl.java:90)
+	at org.apache.curator.connection.StandardConnectionHandlingPolicy.callWithRetry(StandardConnectionHandlingPolicy.java:67)
+	at org.apache.curator.RetryLoop.callWithRetry(RetryLoop.java:81)
+	at org.apache.curator.framework.imps.NamespaceImpl.fixForNamespace(NamespaceImpl.java:83)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.fixForNamespace(CuratorFrameworkImpl.java:731)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.forPath(ExistsBuilderImpl.java:187)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.forPath(ExistsBuilderImpl.java:35)
+	at org.locationtech.geomesa.utils.zk.ZookeeperMetadata.scanValue(ZookeeperMetadata.scala:52)
+	at org.locationtech.geomesa.index.metadata.KeyValueStoreMetadata.scanValue(KeyValueStoreMetadata.scala:40)
+	at org.locationtech.geomesa.index.metadata.KeyValueStoreMetadata.scanValue$(KeyValueStoreMetadata.scala:39)
+	at org.locationtech.geomesa.utils.zk.ZookeeperMetadata.scanValue(ZookeeperMetadata.scala:16)
+	at org.locationtech.geomesa.index.metadata.TableBasedMetadata$$anon$1.load(TableBasedMetadata.scala:114)
+	at org.locationtech.geomesa.index.metadata.TableBasedMetadata$$anon$1.load(TableBasedMetadata.scala:110)
+	at com.github.benmanes.caffeine.cache.BoundedLocalCache$BoundedLocalLoadingCache.lambda$new$0(BoundedLocalCache.java:3308)
+	at com.github.benmanes.caffeine.cache.BoundedLocalCache.lambda$doComputeIfAbsent$14(BoundedLocalCache.java:2031)
+	at java.util.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1853)
+	at com.github.benmanes.caffeine.cache.BoundedLocalCache.doComputeIfAbsent(BoundedLocalCache.java:2029)
+	at com.github.benmanes.caffeine.cache.BoundedLocalCache.computeIfAbsent(BoundedLocalCache.java:2012)
+	at com.github.benmanes.caffeine.cache.LocalCache.computeIfAbsent(LocalCache.java:113)
+	at com.github.benmanes.caffeine.cache.LocalLoadingCache.get(LocalLoadingCache.java:65)
+	at org.locationtech.geomesa.index.metadata.TableBasedMetadata.read(TableBasedMetadata.scala:163)
+	at org.locationtech.geomesa.index.metadata.TableBasedMetadata.read$(TableBasedMetadata.scala:159)
+	at org.locationtech.geomesa.utils.zk.ZookeeperMetadata.read(ZookeeperMetadata.scala:16)
+	at org.locationtech.geomesa.kafka.data.KafkaDataStore.<init>(KafkaDataStore.scala:114)
+	at org.locationtech.geomesa.kafka.data.KafkaDataStoreFactory.createDataStore(KafkaDataStoreFactory.scala:49)
+	at org.locationtech.geomesa.kafka.data.KafkaDataStoreFactory.createDataStore(KafkaDataStoreFactory.scala:38)
+	at org.vfny.geoserver.util.DataStoreUtils.getDataAccess(DataStoreUtils.java:66)
+	at org.geoserver.catalog.ResourcePool.getDataStore(ResourcePool.java:624)
+	at org.geoserver.catalog.ResourcePool.getCacheableFeatureType(ResourcePool.java:952)
+	at org.geoserver.catalog.ResourcePool.tryGetFeatureType(ResourcePool.java:937)
+	at org.geoserver.catalog.ResourcePool.getFeatureType(ResourcePool.java:929)
+	at org.geoserver.catalog.ResourcePool.getFeatureType(ResourcePool.java:914)
+	at org.geoserver.catalog.impl.FeatureTypeInfoImpl.getFeatureType(FeatureTypeInfoImpl.java:134)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.geoserver.catalog.impl.ModificationProxy.invoke(ModificationProxy.java:129)
+	at com.sun.proxy.$Proxy29.getFeatureType(Unknown Source)
+	at org.geoserver.security.decorators.DecoratingFeatureTypeInfo.getFeatureType(DecoratingFeatureTypeInfo.java:112)
+	at org.geoserver.security.decorators.SecuredFeatureTypeInfo.getFeatureType(SecuredFeatureTypeInfo.java:58)
+	at org.geoserver.web.CatalogIconFactory.getSpecificLayerIcon(CatalogIconFactory.java:109)
+	at org.geoserver.web.demo.PreviewLayer.getIcon(PreviewLayer.java:89)
+	at org.geoserver.web.demo.MapPreviewPage$1.getComponentForProperty(MapPreviewPage.java:82)
+	at org.geoserver.web.wicket.GeoServerTablePanel$5.populateItem(GeoServerTablePanel.java:292)
+	at org.apache.wicket.markup.html.list.ListView.onPopulate(ListView.java:523)
+	at org.apache.wicket.markup.repeater.AbstractRepeater.onBeforeRender(AbstractRepeater.java:124)
+	at org.apache.wicket.Component.internalBeforeRender(Component.java:950)
+	at org.apache.wicket.Component.beforeRender(Component.java:1018)
+	at org.apache.wicket.MarkupContainer.onBeforeRenderChildren(MarkupContainer.java:1826)
+	at org.apache.wicket.Component.onBeforeRender(Component.java:3921)
+	at org.apache.wicket.Component.internalBeforeRender(Component.java:950)
+	at org.apache.wicket.Component.beforeRender(Component.java:1018)
+	at org.apache.wicket.MarkupContainer.onBeforeRenderChildren(MarkupContainer.java:1826)
+	at org.apache.wicket.Component.onBeforeRender(Component.java:3921)
+	at org.apache.wicket.markup.repeater.AbstractRepeater.onBeforeRender(AbstractRepeater.java:143)
+	at org.apache.wicket.markup.repeater.AbstractPageableView.onBeforeRender(AbstractPageableView.java:115)
+	at org.apache.wicket.Component.internalBeforeRender(Component.java:950)
+	at org.apache.wicket.Component.beforeRender(Component.java:1018)
+	at org.apache.wicket.MarkupContainer.onBeforeRenderChildren(MarkupContainer.java:1826)
+	at org.apache.wicket.Component.onBeforeRender(Component.java:3921)
+	at org.apache.wicket.Component.internalBeforeRender(Component.java:950)
+	at org.apache.wicket.Component.beforeRender(Component.java:1018)
+	at org.apache.wicket.MarkupContainer.onBeforeRenderChildren(MarkupContainer.java:1826)
+	at org.apache.wicket.Component.onBeforeRender(Component.java:3921)
+	at org.apache.wicket.Component.internalBeforeRender(Component.java:950)
+	at org.apache.wicket.Component.beforeRender(Component.java:1018)
+	at org.apache.wicket.MarkupContainer.onBeforeRenderChildren(MarkupContainer.java:1826)
+	at org.apache.wicket.Component.onBeforeRender(Component.java:3921)
+	at org.apache.wicket.Page.onBeforeRender(Page.java:801)
+	at org.apache.wicket.Component.internalBeforeRender(Component.java:950)
+	at org.apache.wicket.Component.beforeRender(Component.java:1018)
+	at org.apache.wicket.Component.internalPrepareForRender(Component.java:2236)
+	at org.apache.wicket.Page.internalPrepareForRender(Page.java:242)
+	at org.apache.wicket.Component.render(Component.java:2327)
+	at org.apache.wicket.Page.renderPage(Page.java:1018)
+	at org.apache.wicket.request.handler.render.WebPageRenderer.renderPage(WebPageRenderer.java:124)
+	at org.apache.wicket.request.handler.render.WebPageRenderer.respond(WebPageRenderer.java:236)
+	at org.apache.wicket.core.request.handler.RenderPageRequestHandler.respond(RenderPageRequestHandler.java:175)
+	at org.apache.wicket.request.cycle.RequestCycle$HandlerExecutor.respond(RequestCycle.java:895)
+	at org.apache.wicket.request.RequestHandlerStack.execute(RequestHandlerStack.java:64)
+	at org.apache.wicket.request.cycle.RequestCycle.execute(RequestCycle.java:265)
+	at org.apache.wicket.request.cycle.RequestCycle.processRequest(RequestCycle.java:222)
+	at org.apache.wicket.request.cycle.RequestCycle.processRequestAndDetach(RequestCycle.java:293)
+	at org.apache.wicket.protocol.http.WicketFilter.processRequestCycle(WicketFilter.java:261)
+	at org.apache.wicket.protocol.http.WicketFilter.processRequest(WicketFilter.java:203)
+	at org.apache.wicket.protocol.http.WicketServlet.doGet(WicketServlet.java:137)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.springframework.web.servlet.mvc.ServletWrappingController.handleRequestInternal(ServletWrappingController.java:166)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder$NotAsync.service(ServletHolder.java:1452)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:791)
+	at org.eclipse.jetty.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1626)
+	at org.geoserver.filters.ThreadLocalsCleanupFilter.doFilter(ThreadLocalsCleanupFilter.java:28)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:73)
+	at org.geoserver.ows.HTTPHeadersCollector.doFilter(HTTPHeadersCollector.java:48)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.SpringDelegatingFilter.doFilter(SpringDelegatingFilter.java:43)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601)
+	at org.geoserver.platform.AdvancedDispatchFilter.doFilter(AdvancedDispatchFilter.java:39)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:71)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:75)
+	at org.geoserver.security.filter.GeoServerCompositeFilter.doFilter(GeoServerCompositeFilter.java:92)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:71)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:75)
+	at org.geoserver.security.filter.GeoServerCompositeFilter.doFilter(GeoServerCompositeFilter.java:92)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.geoserver.security.filter.GeoServerAnonymousAuthenticationFilter.doFilter(GeoServerAnonymousAuthenticationFilter.java:53)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:71)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:75)
+	at org.geoserver.security.filter.GeoServerCompositeFilter.doFilter(GeoServerCompositeFilter.java:92)
+	at org.geoserver.security.filter.GeoServerUserNamePasswordAuthenticationFilter.doFilter(GeoServerUserNamePasswordAuthenticationFilter.java:122)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:71)
+	at org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter.doFilter(RememberMeAuthenticationFilter.java:150)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:75)
+	at org.geoserver.security.filter.GeoServerCompositeFilter.doFilter(GeoServerCompositeFilter.java:92)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:71)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.geoserver.security.filter.GeoServerSecurityContextPersistenceFilter$1.doFilter(GeoServerSecurityContextPersistenceFilter.java:52)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:75)
+	at org.geoserver.security.filter.GeoServerCompositeFilter.doFilter(GeoServerCompositeFilter.java:92)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.geoserver.security.GeoServerSecurityFilterChainProxy.doFilter(GeoServerSecurityFilterChainProxy.java:142)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601)
+	at org.geoserver.filters.LoggingFilter.doFilter(LoggingFilter.java:102)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601)
+	at org.geoserver.filters.XFrameOptionsFilter.doFilter(XFrameOptionsFilter.java:77)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601)
+	at org.geoserver.filters.GZIPFilter.doFilter(GZIPFilter.java:48)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601)
+	at org.geoserver.filters.SessionDebugFilter.doFilter(SessionDebugFilter.java:49)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601)
+	at org.geoserver.filters.FlushSafeFilter.doFilter(FlushSafeFilter.java:42)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:201)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:548)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:602)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1624)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1435)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:501)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1594)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1350)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:191)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:146)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:388)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:633)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:380)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:273)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:375)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:773)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:905)
+	at java.lang.Thread.run(Thread.java:748)
+2021-12-04 05:47:52,443 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2021-12-04 05:47:52,694 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:8080/geoserver/
+	Bbox = SRSEnvelope[-180.0 : 180.0, -90.0 : 90.0]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = application/openlayers
+	FormatOptions = {}
+	Get = true
+	Height = 384
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@70b70b01]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {REQUEST=GetMap, SRS=EPSG:4326, FORMAT=application/openlayers, BBOX=-180.0,-90.0,180.0,90.0, VERSION=1.1.0, STYLES=, SERVICE=WMS, WIDTH=768, HEIGHT=384, LAYERS=tiger:giant_polygon}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=giant_polygon]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = false
+	ValidateSchema = false
+	Version = 1.1.0
+	ViewParams = null
+	Width = 768
+2021-12-04 05:47:52,984 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2021-12-04 05:47:53,244 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:8080/geoserver/
+	Bbox = SRSEnvelope[-270.0 : 270.0, -135.0 : 135.0]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 384
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@70b70b01]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, FORMAT=image/png, REQUEST=GetMap, SRS=EPSG:4326, BBOX=-270,-135,270,135, VERSION=1.1.1, STYLES=, WIDTH=768, SERVICE=WMS, HEIGHT=384, TRANSPARENT=true, LAYERS=tiger:giant_polygon}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=giant_polygon]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 768
+2021-12-04 05:47:58,495 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2021-12-04 05:47:58,741 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = http://localhost:8080/geoserver/
+    query[0]:
+        typeName[0] = {http://www.census.gov}giant_polygon
+    maxFeatures = 50
+    outputFormat = GML2
+    resultType = results
+2021-12-04 05:48:07,071 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2021-12-04 05:48:07,145 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:8080/geoserver/
+	Bbox = SRSEnvelope[-130.85168 : -62.0054, 20.7052 : 54.1141]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = application/openlayers
+	FormatOptions = {}
+	Get = true
+	Height = 372
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@c97f85a]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {REQUEST=GetMap, SRS=EPSG:4326, FORMAT=application/openlayers, BBOX=-130.85168,20.7052,-62.0054,54.1141, VERSION=1.1.0, STYLES=, SERVICE=WMS, WIDTH=768, HEIGHT=372, LAYERS=nurc:Img_Sample}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=raster]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = false
+	ValidateSchema = false
+	Version = 1.1.0
+	ViewParams = null
+	Width = 768
+2021-12-04 05:48:07,369 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2021-12-04 05:48:07,581 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:8080/geoserver/
+	Bbox = SRSEnvelope[-164.00390625 : -29.00390625, 4.74609375 : 70.13671875]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/jpeg
+	FormatOptions = {}
+	Get = true
+	Height = 372
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@c97f85a]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, FORMAT=image/jpeg, REQUEST=GetMap, SRS=EPSG:4326, BBOX=-164.00390625,4.74609375,-29.00390625,70.13671875, VERSION=1.1.1, STYLES=, WIDTH=768, SERVICE=WMS, HEIGHT=372, TRANSPARENT=true, LAYERS=nurc:Img_Sample}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=raster]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 768
+2021-12-04 05:48:09,708 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2021-12-04 05:48:09,772 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:8080/geoserver/
+	Bbox = SRSEnvelope[-107.9296875 : -74.1796875, 37.8369140625 : 54.1845703125]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/jpeg
+	FormatOptions = {}
+	Get = true
+	Height = 372
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@c97f85a]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, FORMAT=image/jpeg, REQUEST=GetMap, SRS=EPSG:4326, BBOX=-107.9296875,37.8369140625,-74.1796875,54.1845703125, VERSION=1.1.1, STYLES=, WIDTH=768, SERVICE=WMS, HEIGHT=372, TRANSPARENT=true, LAYERS=nurc:Img_Sample}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=raster]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 768
+2021-12-04 05:48:10,574 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2021-12-04 05:48:10,601 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:8080/geoserver/
+	Bbox = SRSEnvelope[-238.7109375 : 31.2890625, -39.375 : 91.40625]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/jpeg
+	FormatOptions = {}
+	Get = true
+	Height = 372
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@c97f85a]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, FORMAT=image/jpeg, REQUEST=GetMap, SRS=EPSG:4326, BBOX=-238.7109375,-39.375,31.2890625,91.40625, VERSION=1.1.1, STYLES=, WIDTH=768, SERVICE=WMS, HEIGHT=372, TRANSPARENT=true, LAYERS=nurc:Img_Sample}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=raster]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 768
+2021-12-04 05:48:11,523 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2021-12-04 05:48:11,550 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:8080/geoserver/
+	Bbox = SRSEnvelope[-107.9296875 : -74.1796875, 37.7490234375 : 54.0966796875]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/jpeg
+	FormatOptions = {}
+	Get = true
+	Height = 372
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@c97f85a]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, FORMAT=image/jpeg, REQUEST=GetMap, SRS=EPSG:4326, BBOX=-107.9296875,37.7490234375,-74.1796875,54.0966796875, VERSION=1.1.1, STYLES=, WIDTH=768, SERVICE=WMS, HEIGHT=372, TRANSPARENT=true, LAYERS=nurc:Img_Sample}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=raster]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 768
