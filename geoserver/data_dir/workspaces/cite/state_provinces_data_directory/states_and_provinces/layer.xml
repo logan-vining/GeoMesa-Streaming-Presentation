@@ -1,0 +1,17 @@
+<layer>
+  <name>states_and_provinces</name>
+  <id>LayerInfoImpl-73804883:17d87e98084:-7ffd</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--570ae188:124761b8d78:-7fe0</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-73804883:17d87e98084:-7ffe</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2021-12-05 00:12:45.570 UTC</dateCreated>
+  <dateModified>2021-12-05 00:13:02.729 UTC</dateModified>
+</layer>

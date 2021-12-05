@@ -34,3 +34,4 @@ services:
       - GEOSERVER_HOME=/geoserver
     volumes:
       - $PWD/geoserver:/geoserver
+    command: sh /geoserver/bin/startup.sh
