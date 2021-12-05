@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="org.apache.kafka:kafka-clients:3.0.0" type="repository">
+    <properties maven-id="org.apache.kafka:kafka-clients:3.0.0" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/3.0.0/kafka-clients-3.0.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/luben/zstd-jni/1.5.0-2/zstd-jni-1.5.0-2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/lz4/lz4-java/1.7.1/lz4-java-1.7.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/xerial/snappy/snappy-java/1.1.8.1/snappy-java-1.1.8.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
