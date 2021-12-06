@@ -1,11 +1,11 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-30c0c4d1:17d8d1d0dc9:-7fff</id>
-  <name>opensky_plane_data</name>
+  <id>FeatureTypeInfoImpl-25b854bb:17d8d99adc9:-7fff</id>
+  <name>streaming_plane_data</name>
   <nativeName>opensky_plane_data</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--570ae188:124761b8d78:-7ff4</id>
   </namespace>
-  <title>opensky_plane_data</title>
+  <title>streaming_plane_data</title>
   <keywords>
     <string>features</string>
     <string>http://www.opengeospatial.net/cite:opensky_plane_data</string>
@@ -21,17 +21,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>-180.0</minx>
-    <maxx>180.0</maxx>
-    <miny>-90.0</miny>
-    <maxy>90.0</maxy>
+    <minx>-116.050003</minx>
+    <maxx>-104.039138</maxx>
+    <miny>44.358221</miny>
+    <maxy>49.00139</maxy>
     <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>-180.0</minx>
-    <maxx>180.0</maxx>
-    <miny>-90.0</miny>
-    <maxy>90.0</maxy>
+    <minx>-116.050003</minx>
+    <maxx>-104.039138</maxx>
+    <miny>44.358221</miny>
+    <maxy>49.00139</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>

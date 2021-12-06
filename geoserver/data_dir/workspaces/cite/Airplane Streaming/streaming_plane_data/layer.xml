@@ -1,16 +1,17 @@
 <layer>
-  <name>opensky_plane_data</name>
-  <id>LayerInfoImpl-30c0c4d1:17d8d1d0dc9:-7ffe</id>
+  <name>streaming_plane_data</name>
+  <id>LayerInfoImpl-25b854bb:17d8d99adc9:-7ffe</id>
   <type>VECTOR</type>
   <defaultStyle>
     <id>StyleInfoImpl--570ae188:124761b8d78:-7fdf</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-30c0c4d1:17d8d1d0dc9:-7fff</id>
+    <id>FeatureTypeInfoImpl-25b854bb:17d8d99adc9:-7fff</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
-  <dateCreated>2021-12-06 00:23:11.271 UTC</dateCreated>
+  <dateCreated>2021-12-06 02:37:29.227 UTC</dateCreated>
+  <dateModified>2021-12-06 02:49:01.405 UTC</dateModified>
 </layer>

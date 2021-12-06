@@ -16,7 +16,7 @@
     <entry key="kafka.cache.event-time.ordering">false</entry>
     <entry key="kafka.zk.path">geomesa/ds/kafka</entry>
     <entry key="kafka.index.tiers">1.0:1.0,4.0:4.0,32.0:32.0,360.0:180.0</entry>
-    <entry key="kafka.brokers">brokers:9092</entry>
+    <entry key="kafka.brokers">brokers:9093</entry>
     <entry key="geomesa.query.audit">true</entry>
     <entry key="namespace">http://www.opengeospatial.net/cite</entry>
     <entry key="kafka.consumer.count">1</entry>
@@ -25,4 +25,5 @@
   </connectionParameters>
   <__default>false</__default>
   <dateCreated>2021-12-05 23:39:10.75 UTC</dateCreated>
+  <dateModified>2021-12-06 02:26:47.426 UTC</dateModified>
 </dataStore>

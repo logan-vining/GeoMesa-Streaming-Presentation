@@ -1,8 +1,8 @@
 <GeoServerTileLayer>
-  <id>LayerInfoImpl-30c0c4d1:17d8d1d0dc9:-7ffe</id>
+  <id>LayerInfoImpl-25b854bb:17d8d99adc9:-7ffe</id>
   <enabled>true</enabled>
   <inMemoryCached>true</inMemoryCached>
-  <name>cite:opensky_plane_data</name>
+  <name>cite:streaming_plane_data</name>
   <mimeFormats>
     <string>image/png</string>
     <string>image/jpeg</string>
