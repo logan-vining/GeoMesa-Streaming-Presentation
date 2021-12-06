@@ -1,0 +1,28 @@
+<dataStore>
+  <id>DataStoreInfoImpl--6a1b9f3d:17d8cf5d90f:-7fff</id>
+  <name>Airplane Streaming</name>
+  <type>Kafka (GeoMesa)</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--570ae188:124761b8d78:-7ff3</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="kafka.consumer.start-on-demand">true</entry>
+    <entry key="kafka.serialization.lazy">true</entry>
+    <entry key="kafka.zookeepers">zookeeper:2181</entry>
+    <entry key="kafka.index.resolution.x">360</entry>
+    <entry key="kafka.index.resolution.y">180</entry>
+    <entry key="geomesa.query.loose-bounding-box">true</entry>
+    <entry key="kafka.cache.event-time.ordering">false</entry>
+    <entry key="kafka.zk.path">geomesa/ds/kafka</entry>
+    <entry key="kafka.index.tiers">1.0:1.0,4.0:4.0,32.0:32.0,360.0:180.0</entry>
+    <entry key="kafka.brokers">brokers:9092</entry>
+    <entry key="geomesa.query.audit">true</entry>
+    <entry key="namespace">http://www.opengeospatial.net/cite</entry>
+    <entry key="kafka.consumer.count">1</entry>
+    <entry key="kafka.serialization.type">kryo</entry>
+    <entry key="kafka.metrics.reporters">{&quot;type&quot;:&quot;slf4j&quot;,&quot;logger&quot;:&quot;org.locationtech.geomesa.kafka.metrics&quot;}</entry>
+  </connectionParameters>
+  <__default>false</__default>
+  <dateCreated>2021-12-05 23:39:10.75 UTC</dateCreated>
+</dataStore>
