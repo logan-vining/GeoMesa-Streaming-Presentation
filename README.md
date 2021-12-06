@@ -1,6 +1,8 @@
 # GeoMesa-Streaming-Presentation
 An Apache Kafka & GeoMesa streaming pipeline. This project reads data from a public airline data set and streams every 10 seconds into a running Apache Kafka bus that uses Zookeeper.
 
+## Public Airline Data
+The airplane data used in this project comes from the OpenSky Public REST API found here: https://opensky-network.org/api/states/all.
 
 ## Running the Pipeline
 This project uses Docker to run the project in containers, so to bring up Zookeeper, the Kafka broker, and Geoserver, run:
