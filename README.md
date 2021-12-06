@@ -8,10 +8,10 @@ This project uses Docker to run the project in containers, so to bring up Zookee
 docker-compose up --build
 ```
 
-This will first bring up Zookeeper on port `2181`, then the broker publishing data on port `9092`, and finally Geoserver, including the web app, at <localhost:8080/geoserver>.
+This will first bring up Zookeeper on port `2181`, then the broker publishing data on port `9092`, and finally Geoserver, including the web app, at [localhost:8080/geoserver](localhost:8080/geoserver).
 
 ### Working in Geoserver
-After going to <localhost:8080/geoserver>, login (login is at the top of the screen) with username `admin` and password `geoserver`. Once you've logged in, you should see an expanded nav menu in the left pane.
+After going to [localhost:8080/geoserver](localhost:8080/geoserver), login (login is at the top of the screen) with username `admin` and password `geoserver`. Once you've logged in, you should see an expanded nav menu in the left pane.
 
 #### Streaming data and Creating the Layer
 To start streaming our airplane data, first cd into the `dataStreamer` directory, then run the following command:
