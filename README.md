@@ -5,7 +5,7 @@ An Apache Kafka & GeoMesa streaming pipeline. This project reads data from a pub
 The airplane data used in this project comes from the OpenSky Public REST API found here: https://opensky-network.org/api/states/all.
 
 ## Running the Pipeline
-This project uses Docker to run the project in containers, so to bring up Zookeeper, the Kafka broker, and Geoserver, run:
+This project uses Docker to run the project in containers. To bring up Zookeeper, the Kafka broker, and Geoserver, cd to the root repository directory and run:
 ```
 docker-compose up --build
 ```
